@@ -1,0 +1,10 @@
+
+span {
+    cursor: pointer;
+}
+span:hover {
+    font-weight: 600;
+}
+.close {
+    display: none;
+}

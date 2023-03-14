@@ -1,0 +1,27 @@
+button {
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  border-radius: none;
+  cursor: pointer;
+}
+
+span {
+  color: green;
+  display: inline-block;
+  width: 15px;
+}
+
+.close {
+  display: none;
+}
+
+ul {
+  display: none;
+  list-style: none;
+  margin-top: 10px;
+}
+
+ul.open {
+  display: block;
+}

@@ -1,0 +1,64 @@
+.arrow {
+  padding: 0;
+  background: #ddd;
+  border-radius: 15px;
+  border: 1px solid gray;
+  font-size: 24px;
+  line-height: 24px;
+  color: #444;
+  display: block;
+}
+
+.arrow:focus {
+  outline: none;
+}
+
+.arrow:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+
+ul {
+  height: 130px;
+  width: 390px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+  overflow: hidden;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+ul img {
+  width: 130px;
+  height: 130px;
+  display: block;
+}
+
+ul li {
+  display: inline-block; 
+}
+
+.slider {
+  width: 440px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #f3f1f1;
+  padding: 20px 10px;
+  position: relative;
+  border: 1px solid gray;
+  border-radius: 15px;
+}
+
+.buttons {
+  display: flex;
+  gap: 390px;
+  position: absolute;
+  top: 50%;
+  margin-top: -12px;
+}
